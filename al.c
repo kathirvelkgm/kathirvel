@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-int n,a[50],count=0,i,k=0,j;
+int c,a[50],count=0,i,k=0,j;
 scanf("%d",&n);
-for(i=0;i<n;i++)
+for(i=0;i<c;i++)
 {
 scanf("%d",&a[i]);
 }
-for(i=0;i<n;i++)
+for(i=0;i<c;i++)
 {
-for(j=i+1;j<n;j++)
+for(j=i+1;j<=c;j++)
 {
 if(a[i]>a[j])
 {
@@ -21,7 +21,7 @@ a[j]=k;
 }
 }
 }
-for(i=0;i<n;i++)
+for(i=0;i<c;i++)
 {
 if(a[i]!='/0')
 {
