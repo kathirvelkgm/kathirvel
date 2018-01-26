@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c,l,sl;
+	scanf("%d%d%d",&a,&b,&c);
+	printf("\n%d\n%d\n%d",a,b,c);
+	if(a>b)
+	{{
+		if(a>c)
+		l=a;
+		else
+		sl=a;
+	}
+	if(b>c)
+	{
+		if(b>a)
+		l=b;
+		else
+		sl=b;
+	}
+	if(c>a)
+	{
+		if(c>b)
+		l=c;
+		else
+		sl=c;
+	}
+	}
+	printf("\n%d",sl);
+}
