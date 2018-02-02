@@ -2,13 +2,21 @@
 #include<string.h>
 int main()
 {
-int a;
+int a,sum=0,i=0,temp=0,k;
 char b[20]={"hello world"};
-if(a!='/0')
+while(b[i]!='\0')
 {
-a=strlen(b);
+	if(b[i]==' ')
+	{
+		sum++;
+	}
+	temp++;
+	i++;
+	
 }
-printf("no of letters %d",a);
+k=temp-sum;
+
+printf("no of letters %d",k);
 return 0;
 
 }
